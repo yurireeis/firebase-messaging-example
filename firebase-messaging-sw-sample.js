@@ -25,5 +25,5 @@ const notificationAction = payload => {
     return self.registration.showNotification(notificationTitle, notificationOptions);
 }
 
-messaging.usePublicVapidKey("BKQhmQ7uMwvh3BsUmGVSjOMG_z00sEu3HvQ3mQNt09AFwRrHiqZ2kn-NYRoEzMwMcGGOEo_gKUBSDtfqm4aNCyI");
+messaging.usePublicVapidKey("");
 messaging.setBackgroundMessageHandler(notificationAction);

@@ -2,7 +2,9 @@ export const subscribeToTopic = (
   messaging,
   registrationTokens,
   topic
-) => messaging.subscribeToTopic(registrationTokens, topic);
+) => {
+  // TODO: call some api here
+}
 
 export const requestToken = messaging => messaging.getToken();
 
@@ -10,7 +12,9 @@ export const unsubscribeFromTopic = (
   messaging,
   registrationTokens,
   topic
-) => messaging.unsubscribeFromTopic(registrationTokens, topic);
+) => {
+  // TODO: call some api here
+}
 
 export const sendTokenToServer = currentToken => {
   if (!isTokenSentToServer()) {
